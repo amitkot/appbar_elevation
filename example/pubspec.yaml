@@ -1,5 +1,5 @@
-name: example
-description: A new Flutter project.
+name: appbar_elevation_example
+description: An example project for the appbar_elevation package
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 

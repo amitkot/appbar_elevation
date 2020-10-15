@@ -1,7 +1,6 @@
 name: appbar_elevation
 description: A Flutter Widget for an AppBar that is initially flush with the body and elevated when scrolled.
 version: 0.1.0
-author: Amit Kotlovski
 homepage: https://github.com/amitkot/appbar_elevation
 
 environment:
