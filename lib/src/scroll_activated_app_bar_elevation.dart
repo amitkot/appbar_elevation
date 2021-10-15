@@ -10,14 +10,11 @@ typedef BuilderWithElevation = Widget Function(
 /// [elevationInitial] and [elevationScrolled] values.
 class ScrollActivatedAppBarElevation extends StatefulWidget {
   const ScrollActivatedAppBarElevation({
-    @required this.builder,
+    required this.builder,
     this.elevationInitial = 0,
     this.elevationScrolled = 4,
-    Key key,
-  })  : assert(builder != null),
-        assert(elevationInitial != null),
-        assert(elevationScrolled != null),
-        super(key: key);
+    Key? key,
+  }) : super(key: key);
 
   /// Initial elevation used when not scrolled. Defaults to 0.
   final double elevationInitial;
@@ -35,7 +32,7 @@ class ScrollActivatedAppBarElevation extends StatefulWidget {
 
 class _ScrollActivatedAppBarElevationState
     extends State<ScrollActivatedAppBarElevation> {
-  double _appBarElevation;
+  late double _appBarElevation;
 
   @override
   void initState() {
